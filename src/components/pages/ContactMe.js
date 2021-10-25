@@ -12,8 +12,14 @@ const ContactMe = (props) => {
               </Col>
           </Row>
           <Row>
-              <Col xs={{size: "10", offset:"1"}} sm={{size:"10"}} md={{size:"8", offset:"2"}} lg={{size:'8', offset:'2'}}>
-                  <Button>Email</Button>
+              <Col className='contactCol' xs={{size: "10", offset:"1"}} sm={{size:"10"}} md={{size:"8", offset:"2"}} lg={{size:'8', offset:'2'}}>
+                <a href='mailto:greenwoodtrevon@gmail.com' className='contacts'>greenwoodtrevon@gmail.com</a>
+              </Col>
+              <Col className='contactCol' xs={{size: "10", offset:"1"}} sm={{size:"10"}} md={{size:"8", offset:"2"}} lg={{size:'8', offset:'2'}}>
+                <a href='tel:+18018846663' className='contacts'>(801) 884-6663</a>
+              </Col>
+              <Col className='contactCol' xs={{size: "10", offset:"1"}} sm={{size:"10"}} md={{size:"8", offset:"2"}} lg={{size:'8', offset:'2'}}>
+                <a href='https://github.com/greenwoodtrevon' className='contacts'>GitHub: greenwoodtrevon</a>
               </Col>
           </Row>
           {/* <MyWork currentPage = {props.currentPage}  handlePageChange = {props.handlePageChange}/> */}

@@ -17,8 +17,8 @@ const Home = (props) => {
                   <p className="lead">A few things about me</p>
               </Col>
           </Row>
-          <MyWork currentPage = {props.currentPage}  handlePageChange = {props.handlePageChange}/>
-          <ContactMe />
+          {/* <MyWork currentPage = {props.currentPage}  handlePageChange = {props.handlePageChange}/>
+          <ContactMe /> */}
       </Container>
       
   );
